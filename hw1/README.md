@@ -1,6 +1,3 @@
-# CS-5630 / CS-6630 Homework 1
-*Due: Friday, August 30, 11:59 pm.*
-
 In this assignment you will create a simple webpage with some graphical content using HTML, CSS, and SVG. These are basic building blocks that we will manipulate in later projects using Javascript and D3 in order to create visualizations. As such, it is important that you know how the pieces work on their own, before moving forward.
 
 ## The Data
@@ -25,7 +22,7 @@ This is one of the datasets from [Anscombe's quartet](https://en.wikipedia.org/w
 
 ## Design and Implementation
 
-Implement your solution in a file called ``hw1.html``, which you should store in the top-level directory of the homework 1 folder. **At the top of the file add “CS-5630 / CS-6630 Homework 1”, your name, your e-mail address and your uID.** Use the proper HTML elements to structure this information and use headings to label your charts.
+Implement your solution in a file called ``hw1.html``.Use the proper HTML elements to structure this information and use headings to label your charts.
 
 You can choose your design parameters freely, i.e., things like the color, aspect ratio and size of your charts is up to you. You need to make sure, however, that the data can be clearly read and follows good visualization design practice. Note that you will probably need to make some kind of (manual) transformation to the data to achieve pleasant results, i.e., when plotting a bar chart, the value `10` can't be just mapped to pixels.  
 
@@ -63,10 +60,3 @@ After you draw the scatterplot, add a line that passes through the following poi
 Finally, add a frame to your scatterplot. This should be your final result, approximately:
 
 ![Scatterplot](figures/scatter.png)
-
-
-### ASSESSMENT
-
-25% of the grade will be given to submissions for each chart that gets full marks. The charts don’t have to look exactly like the ones shown, but the data must be clearly legible. We consider HTML validity and efficient use of the SVG elements and styles in our evaluation, i.e., even if your charts look exactly like shown here you could still loose points if you do complicated and unnecessary things.
-
-As you will see it can be a little tedious to get the SVG to represent the data, in the next homework we will no longer write this by hand but use JavaScript to generate SVG!
