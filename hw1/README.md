@@ -2,7 +2,7 @@ In this assignment you will create a simple webpage with some graphical content 
 
 ## The Data
 
-This is one of the datasets from [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet) that we discussed in Lecture. You will create multiple representations for this dataset, specifically bar charts, line charts, area charts and a scatterplot, all using vanilla SVG. *Write the svg manually and not create it using either javascript or drawing software.*
+This is one of the datasets from [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet). You will create multiple representations for this dataset, specifically bar charts, line charts, area charts and a scatterplot, all using vanilla SVG. *Write the svg manually and not create it using either javascript or drawing software.*
 
 
 | X    | Y    |
