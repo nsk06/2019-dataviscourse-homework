@@ -29,6 +29,35 @@ You can choose your design parameters freely, i.e., things like the color, aspec
 You **must use selectors to style your SVG elements**, i.e., you should not use inline styling. You should also not use classes or identifiers more than necessary for each chart.  There are good reasons to use both css class selectors and element selectors in this homework.
 
 Make sure your submission is a valid HTML5 file. Check that it is valid by uploading it to the [W3C HTML Validator](https://validator.w3.org/#validate_by_upload).
+In this assignment you will create a simple webpage with some graphical content using HTML, CSS, and SVG. These are basic building blocks that we will manipulate in later projects using Javascript and D3 in order to create visualizations. As such, it is important that you know how the pieces work on their own, before moving forward.
+
+## The Data
+
+This is one of the datasets from [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet). You will create multiple representations for this dataset, specifically bar charts, line charts, area charts and a scatterplot, all using vanilla SVG. *Write the svg manually and not create it using either javascript or drawing software.*
+
+
+| X    | Y    |
+|:----:|:----:|
+| 10.0 | 8.04 |
+| 8.0  | 6.95 |
+| 13.0 | 7.58 |
+| 9.0  | 8.81 |
+| 11.0 | 8.33 |
+| 14.0 | 9.96 |
+| 6.0  | 7.24 |
+| 4.0  | 4.26 |
+| 12.0 | 10.84|
+| 7.0  | 4.82 |
+| 5.0  | 5.68 |
+ 
+
+## Design and Implementation
+
+Implement your solution in a file called ``hw1.html``.Use the proper HTML elements to structure this information and use headings to label your charts.
+
+You can choose your design parameters freely, i.e., things like the color, aspect ratio and size of your charts is up to you. You need to make sure, however, that the data can be clearly read and follows good visualization design practice. Note that you will probably need to make some kind of (manual) transformation to the data to achieve pleasant results, i.e., when plotting a bar chart, the value `10` can't be just mapped to pixels.  
+
+You **must use selectors to style your SVG elements**, i.e., you should not use inline styling. You should also not use classes or identifiers more than necessary for each chart.  There are good reasons to use both css class selectors and element selectors in this homework.
 
 ### Bar Charts
 
