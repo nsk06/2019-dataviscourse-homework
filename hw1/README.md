@@ -53,7 +53,7 @@ Next, you should draw area charts of the same data. The area chart for the X dim
 
 ### Scatterplot
 
-A scatterplot shows how two dimensions relate to each other. Plot the X dimension along the x-axis, and the Y dimension along the y-axis. When you hover over a circle, its fill color should change and X and Y value of the particular point should be shown in a tooltip (hint: check out [title element](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title) of SVG).
+A scatterplot shows how two dimensions relate to each other. Plot the X dimension along the x-axis, and the Y dimension along the y-axis. When you hover over a circle, its fill color should change and X and Y value of the particular point should be shown in a tooltip.
 
 
 After you draw the scatterplot, add a line that passes through the following points: *(2, 4) and (16, 11)*.
